@@ -132,4 +132,3 @@ If not, simplify before completing the task. Use [CHECKLIST.md](CHECKLIST.md) fo
 - [OUTPUT_FORMATS.md](OUTPUT_FORMATS.md) — Standardized templates for agent responses
 - [REFERENCE.md](REFERENCE.md) — External sources and foundational principles
 - [CHANGELOG.md](CHANGELOG.md) — Project history and updates
-- [LICENSE.txt](LICENSE.txt) — MIT License details
