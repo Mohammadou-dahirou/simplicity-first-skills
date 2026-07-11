@@ -14,75 +14,61 @@ Not because the problem requires them.
 
 ## Future-Proof Programming
 
-Building for hypothetical future requirements.
-
-Prefer solving today's problem.
+See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#premature-abstraction).
 
 ---
 
 ## Service Everywhere
 
-Creating a service for every piece of logic.
-
-Services should represent meaningful business capabilities.
+See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#service-explosion).
 
 ---
 
 ## Repository Everywhere
 
-Wrapping the ORM without adding value.
-
-If the repository only forwards ORM calls, remove it.
+See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#repository-without-value).
 
 ---
 
 ## Interface Everywhere
 
-Creating interfaces with a single implementation and no foreseeable variation.
+See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#interface-without-multiple-implementations).
 
 ---
 
 ## One Class Per Tiny Action
 
-Avoid classes whose only purpose is forwarding one method call.
+See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#unnecessary-files).
 
 ---
 
 ## Generic Helpers
 
-Creating Utility or Helper classes that become dumping grounds for unrelated logic.
+See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#unnecessary-files) and [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#wrapper-classes).
 
 ---
 
 ## Clever Code
 
-Code that impresses more than it explains.
-
-Prefer clarity over cleverness.
+See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#clever-code).
 
 ---
 
 ## Large Refactoring During Feature Work
 
-Do not redesign the application while implementing an unrelated feature.
-
-One Pull Request should solve one problem.
+See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#large-refactoring).
 
 ---
 
 ## Framework Reinvention
 
-Replacing stable framework features with custom implementations.
-
-Trust the framework.
+See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#framework-reimplementation).
 
 ---
 
 ## Dependency Addiction
 
-Adding packages for trivial functionality.
-
-Every dependency increases maintenance cost.
+See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#dependency-creep).
 
 ---
 
@@ -96,14 +82,10 @@ Consistency is more valuable than novelty.
 
 ## Complexity Cascade
 
-One unnecessary abstraction often leads to several more.
-
-Question every additional layer.
+See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#complexity-cascade).
 
 ---
 
 # Final Reminder
 
-Every new abstraction, dependency, file or architectural layer must justify its existence.
-
-If it cannot, it should not exist.
+See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#warning).

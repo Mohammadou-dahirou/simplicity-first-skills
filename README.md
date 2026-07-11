@@ -31,14 +31,7 @@ The goal of Simplicity First is to teach AI agents a senior engineering habit:
 
 # Philosophy
 
-Simplicity First follows these principles:
-
-- Prefer existing code over new code.
-- Prefer deletion over addition.
-- Prefer framework features over custom implementations.
-- Prefer explicit solutions over unnecessary abstractions.
-- Optimize for maintainability, not cleverness.
-- Solve today's problem, not imaginary future problems.
+See core rules and mindset in [SKILL.md](SKILL.md#rules).
 
 ---
 
@@ -61,7 +54,7 @@ Example:
     ├── OUTPUT_FORMATS.md
     ├── REFERENCE.md
     ├── CHANGELOG.md
-    └── LICENSE.txt
+    └── LICENSE
 ```
 
 ---
@@ -117,7 +110,7 @@ Real examples showing simple versus over-engineered approaches.
 
 ## ANTI_PATTERNS.md
 
-Patterns that frequently create unnecessary complexity.
+Unique anti-patterns and cross-references to failure patterns.
 
 ## COMPLEXITY_SCORE.md
 
@@ -135,7 +128,7 @@ Lists sources, principles (KISS, YAGNI, Occam's Razor), and engineering practice
 
 Chronological log of changes to the project.
 
-## LICENSE.txt
+## LICENSE
 
 MIT License details.
 
@@ -143,34 +136,13 @@ MIT License details.
 
 # Example
 
-## Problem
-
-Add filtering to a list of users.
-
-## Over-engineered solution
-
-Create:
-
-- FilterService
-- FilterRepository
-- FilterInterface
-- FilterFactory
-
-## Simplicity First solution
-
-Add the filter where the existing query logic already exists.
-
-Introduce abstraction only when real complexity appears.
+See [EXAMPLES.md](EXAMPLES.md) and [COMPLEXITY_SCORE.md](COMPLEXITY_SCORE.md#example) for comparative examples.
 
 ---
 
 # Core Question
 
-Before adding code:
-
-> Is this the simplest solution that solves the real problem?
-
-If not, simplify.
+See core mindset in [SKILL.md](SKILL.md#core-mindset).
 
 ---
 

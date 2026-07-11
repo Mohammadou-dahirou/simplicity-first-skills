@@ -154,6 +154,4 @@ Only create a class when it has a clear responsibility.
 
 # General Rule
 
-When two solutions solve the same problem:
-
-Choose the one that introduces the least complexity.
+See core mindset in [SKILL.md](SKILL.md#core-mindset).

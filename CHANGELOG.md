@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 This project follows the principles of [Keep a Changelog](https://keepachangelog.com/) and uses semantic versioning.
 
+# [1.1.0] - 2026-07-11
+
+## Changed
+
+### Redundancy Reduction
+
+- Trimmed redundant exposition and duplicate rules across multiple Markdown files while keeping files and unique content intact:
+  - `SKILL.md`: Trimmed `Self-review` checklist questions to point to `CHECKLIST.md`.
+  - `ANTI_PATTERNS.md`: Trimmed all 11 restated anti-patterns to pointers to `FAILURE_PATTERNS.md`, keeping unique `Pattern-Driven Development` and `Architectural Drift` sections.
+  - `EXAMPLES.md`: Trimmed `General Rule` section to point to core mindset in `SKILL.md`.
+  - `COMPLEXITY_SCORE.md`: Trimmed duplicate `Complexity Review Questions` list to point to `CHECKLIST.md`.
+  - `README.md`: Trimmed `Philosophy`, `Example`, and `Core Question` sections to point to respective files, and updated the `ANTI_PATTERNS.md` description under Included Resources.
+
 ---
 
 # [1.0.0] - 2026-07-09

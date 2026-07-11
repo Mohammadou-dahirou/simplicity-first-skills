@@ -108,16 +108,7 @@ If these questions cannot be answered clearly, do not introduce the abstraction.
 
 ## Self-review
 
-Before finishing, verify:
-
-- Is this the simplest solution?
-- Did I add unnecessary files?
-- Did I introduce unnecessary abstractions?
-- Can any code be removed?
-- Can I rely more on the framework?
-- Would I make the same decision if I had to maintain this code for five years?
-
-If not, simplify before completing the task. Use [CHECKLIST.md](CHECKLIST.md) for a comprehensive review.
+Use [CHECKLIST.md](CHECKLIST.md) for a comprehensive review.
 
 ---
 

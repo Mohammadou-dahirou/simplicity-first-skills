@@ -75,13 +75,7 @@ Redesign before implementation.
 
 # Complexity Review Questions
 
-Before accepting a solution:
-
-- Why does each new file exist?
-- Why does each new class exist?
-- Why is each dependency necessary?
-- Could the same result be achieved with fewer changes?
-- Is this complexity required today?
+Before accepting a solution, verify it against the questions in [CHECKLIST.md](CHECKLIST.md).
 
 ---
 
