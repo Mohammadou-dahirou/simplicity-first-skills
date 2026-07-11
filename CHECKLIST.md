@@ -29,6 +29,9 @@ Prefer built-in solutions whenever reasonable.
 
 For every new abstraction (service, repository, interface, helper, etc.) ask:
 
+<!-- DO-NOT-PRUNE -->
+- [ ] Is this already an established convention in this codebase (3+ existing occurrences) or a documented architectural decision? If yes, this is an Architectural Exception (see ANTI_PATTERNS.md) — follow the convention, skip the rest of this check.
+<!-- /DO-NOT-PRUNE -->
 - [ ] What concrete problem does it solve?
 - [ ] Is this problem present today?
 - [ ] Is there evidence this abstraction is needed?

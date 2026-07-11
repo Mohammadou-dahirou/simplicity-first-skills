@@ -86,6 +86,31 @@ See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#complexity-cascade).
 
 ---
 
+<!-- DO-NOT-PRUNE: this section is unique content, not a restatement of anything in FAILURE_PATTERNS.md. Do not replace with a cross-reference or delete during redundancy cleanup. -->
+
+# Architectural Exceptions
+
+These anti-patterns apply to **new, local, undocumented** decisions made during a single task.
+
+They do **not** apply when a pattern is already an established convention of the project — even if it looks like "Service Everywhere" or "Repository Everywhere" from the outside.
+
+A pattern is exempt when at least one of these holds:
+
+- It is documented as an architectural decision (ADR, README, design doc) for this project.
+- It is used consistently across the existing codebase (this would be the 3rd+ occurrence, not the 1st).
+- It exists to satisfy a cross-cutting requirement: transactional integrity (e.g. outbox pattern), audit/compliance logging, multi-service boundary, or authentication/authorization isolation.
+- Removing it would mean diverging from the codebase's current convention rather than simplifying it.
+
+In these cases, the correct action is to **follow the existing pattern**, not to flag or remove it. Introducing a one-off simpler exception to an established convention is itself a form of unnecessary complexity (inconsistency).
+
+When unsure whether something is a local decision or an established convention: check how many other places in the codebase already do it this way before objecting.
+
+<!-- /DO-NOT-PRUNE -->
+
+---
+
 # Final Reminder
 
 See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md#warning).
+
+If a pattern already exists as project convention, don't re-litigate it — follow it.

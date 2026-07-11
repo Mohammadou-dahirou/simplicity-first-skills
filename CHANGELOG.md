@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 This project follows the principles of [Keep a Changelog](https://keepachangelog.com/) and uses semantic versioning.
 
+# [1.1.1] - 2026-07-11
+
+## Fixed
+
+- Restored "Architectural Exceptions" section in `ANTI_PATTERNS.md` and its cross-references in `SKILL.md` / `CHECKLIST.md`, accidentally deleted during the 1.1.0 redundancy-reduction pass. This section is unique content (not present in `FAILURE_PATTERNS.md`) and is now wrapped in `<!-- DO-NOT-PRUNE -->` markers to prevent recurrence.
+- Renamed this changelog entry's predecessor to avoid a duplicate `[1.1.0]` version number (redundancy-reduction changes and architectural-exceptions changes were both tagged 1.1.0).
+
 # [1.1.0] - 2026-07-11
 
 ## Changed

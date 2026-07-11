@@ -67,6 +67,10 @@ unless there is a demonstrated need.
 
 Future possibilities are not sufficient justification. See [FAILURE_PATTERNS.md](FAILURE_PATTERNS.md) for signs of over-engineering.
 
+<!-- DO-NOT-PRUNE -->
+This rule targets *new, local, undocumented* decisions — not patterns already established as project convention. See "Architectural Exceptions" in [ANTI_PATTERNS.md](ANTI_PATTERNS.md) before flagging an existing pattern.
+<!-- /DO-NOT-PRUNE -->
+
 ---
 
 ### Trust the framework
