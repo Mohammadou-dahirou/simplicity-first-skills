@@ -37,24 +37,14 @@ See core rules and mindset in [SKILL.md](SKILL.md#rules).
 
 # Installation
 
-Copy the `simplicity-first` folder into your AI agent skills directory.
+Copy `SKILL.md` into your AI agent skills directory.
 
 Example:
 
 ```
 .skills/
 └── simplicity-first/
-    ├── SKILL.md
-    ├── CHECKLIST.md
-    ├── FAILURE_PATTERNS.md
-    ├── DECISION_MATRIX.md
-    ├── EXAMPLES.md
-    ├── ANTI_PATTERNS.md
-    ├── COMPLEXITY_SCORE.md
-    ├── OUTPUT_FORMATS.md
-    ├── REFERENCE.md
-    ├── CHANGELOG.md
-    └── LICENSE
+    └── SKILL.md
 ```
 
 ---
@@ -72,77 +62,31 @@ Before implementing a solution, the agent should:
 
 ---
 
-# Included Resources
+# What's inside SKILL.md
 
-## SKILL.md
+A single self-contained file covering:
 
-Defines the core behavior and activation rules.
-
-## CHECKLIST.md
-
-A final review checklist to detect unnecessary complexity.
-
-## FAILURE_PATTERNS.md
-
-Common complexity mistakes:
-
-- Premature abstraction
-- Service explosion
-- Repository without value
-- Interface without purpose
-- Dependency creep
-- Large refactoring
-
-## DECISION_MATRIX.md
-
-A framework for comparing solutions based on:
-
-- Complexity
-- Maintenance
-- Reuse
-- Performance
-- Dependencies
-- Architecture impact
-
-## EXAMPLES.md
-
-Real examples showing simple versus over-engineered approaches.
-
-## ANTI_PATTERNS.md
-
-Unique anti-patterns and cross-references to failure patterns.
-
-## COMPLEXITY_SCORE.md
-
-A scoring system to evaluate and limit complexity introduced by new changes.
-
-## OUTPUT_FORMATS.md
-
-Standardized communication formats for implementation, code review, and architecture decisions.
-
-## REFERENCE.md
-
-Lists sources, principles (KISS, YAGNI, Occam's Razor), and engineering practices that inspired this skill.
-
-## CHANGELOG.md
-
-Chronological log of changes to the project.
-
-## LICENSE
-
-MIT License details.
+- **Core rules and mindset** — When to activate, 5 questions to ask before writing code
+- **Failure patterns** — Premature abstraction, service explosion, repository without value, interface without purpose, dependency creep, large refactoring
+- **Anti-patterns and architectural exceptions** — Pattern-driven development, architectural drift, and when established conventions are exempt
+- **Examples** — Simple vs over-engineered approaches for common scenarios
+- **Decision matrix** — Framework for comparing solutions by complexity, maintenance, reuse, performance, dependencies, and architecture impact
+- **Complexity score** — Scoring system to evaluate and limit complexity introduced by changes
+- **Checklist** — Final review before completing any implementation
+- **Output formats** — Standardized templates for implementation proposals, code reviews, and architecture decisions
+- **References** — KISS, YAGNI, Occam's Razor, and other foundational principles
 
 ---
 
 # Example
 
-See [EXAMPLES.md](EXAMPLES.md) and [COMPLEXITY_SCORE.md](COMPLEXITY_SCORE.md#example) for comparative examples.
+See the [Examples](SKILL.md#examples) and [Complexity Score](SKILL.md#scoring-example) sections in SKILL.md.
 
 ---
 
 # Core Question
 
-See core mindset in [SKILL.md](SKILL.md#core-mindset).
+See [core mindset](SKILL.md#core-mindset) in SKILL.md.
 
 ---
 
